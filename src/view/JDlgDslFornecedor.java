@@ -18,7 +18,7 @@ public class JDlgDslFornecedor extends javax.swing.JDialog {
     public JDlgDslFornecedor(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-         setTitle("Sistema de Vendas de Computadores- Fornecedor");
+         setTitle("Sistema de Vendas de Computadores - Fornecedor");
         setLocationRelativeTo(null);
         jTxtDslDataCadastro.setEnabled(false);
         jTxtDslEmail.setEnabled(false);
