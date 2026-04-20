@@ -18,7 +18,7 @@ public class JDlgDslSistemaOs extends javax.swing.JDialog {
     public JDlgDslSistemaOs(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-          setTitle("Sistema de Vendas de Computadores - Licenças");
+          setTitle("Sistema de Vendas de Computadores - Clientes");
         setLocationRelativeTo(null);
       
         jTxtDslCustoAdicional.setEnabled(false);

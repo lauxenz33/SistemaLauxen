@@ -17,7 +17,7 @@ public class JFrmDslPrincipal extends javax.swing.JFrame {
      */
     public JFrmDslPrincipal() {
         initComponents();
-        setTitle("Sistema de Vendas de Camisas de Time - Inicio");
+        setTitle("Sistema de Vendas de Computadores - Inicio");
         setExtendedState(MAXIMIZED_BOTH);
     }
 

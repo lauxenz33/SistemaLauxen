@@ -18,7 +18,7 @@ public class JDlgDslClientes extends javax.swing.JDialog {
     public JDlgDslClientes(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Sistema de Vendas de Computadores - Clientes");
+        setTitle("Sistema de Vendas de Computadores- Clientes");
         setLocationRelativeTo(null);
            jTxtDslDataCadastro.setEnabled(false);
         jTxtDslEmail.setEnabled(false);

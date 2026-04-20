@@ -18,7 +18,7 @@ public class JDlgDslProdutos extends javax.swing.JDialog {
     public JDlgDslProdutos(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Sistema de Vendas de Computadores- Produtos");
+        setTitle("Sistema de Vendas de Computadores - Produtos");
         setLocationRelativeTo(null);
         jTxtDslCategoria.setEnabled(false);
         jTxtDslDesconto.setEnabled(false);

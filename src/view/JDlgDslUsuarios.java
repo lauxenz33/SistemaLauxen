@@ -18,7 +18,7 @@ public class JDlgDslUsuarios extends javax.swing.JDialog {
     public JDlgDslUsuarios(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Sistema de Vendas de Camisas de Time - Usuário");
+        setTitle("Sistema de Vendas de Camisas de Time - Usuários");
         setLocationRelativeTo(null);
           jTxtAcessos.setEnabled(false);
         jTxtApelido.setEnabled(false);
