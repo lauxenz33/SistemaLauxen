@@ -3,21 +3,22 @@ package bean;
 import java.util.Date;
 
 public class Fornecedores {
-    private int idFornecedores;
-    private String razaoSocial;
-    private String nomeFantasia;
-    private String cnpj;
-    private String inscricaoEstadual;
-    private String telefone;
-    private String celular;
-    private String email;
-    private String cep;
-    private String endereco;
-    private String numero;
-    private String bairro;
-    private String cidade;
-    private Date dataCadastro;
-    private String ativo;
+
+    private int idFornecedores;        
+    private String nomeSocial;         
+    private String nomeFantasia;       
+    private String cnpj;               
+    private String inscricaoEstadual;  
+    private String email;              
+    private String telefone;           
+    private String contato;            
+    private String cep;               
+    private String endereco;           
+    private String bairro;             
+    private String cidade;             
+    private String estado;             
+    private Date dataCadastro;        
+    private String ativo;             
 
     public Fornecedores() {
     }
@@ -29,11 +30,11 @@ public class Fornecedores {
         this.idFornecedores = idFornecedores;
     }
 
-    public String getRazaoSocial() {
-        return razaoSocial;
+    public String getNomeSocial() {
+        return nomeSocial;
     }
-    public void setRazaoSocial(String razaoSocial) {
-        this.razaoSocial = razaoSocial;
+    public void setNomeSocial(String nomeSocial) {
+        this.nomeSocial = nomeSocial;
     }
 
     public String getNomeFantasia() {
@@ -57,6 +58,13 @@ public class Fornecedores {
         this.inscricaoEstadual = inscricaoEstadual;
     }
 
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getTelefone() {
         return telefone;
     }
@@ -64,18 +72,11 @@ public class Fornecedores {
         this.telefone = telefone;
     }
 
-    public String getCelular() {
-        return celular;
+    public String getContato() {
+        return contato;
     }
-    public void setCelular(String celular) {
-        this.celular = celular;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-    public void setEmail(String email) {
-        this.email = email;
+    public void setContato(String contato) {
+        this.contato = contato;
     }
 
     public String getCep() {
@@ -92,13 +93,6 @@ public class Fornecedores {
         this.endereco = endereco;
     }
 
-    public String getNumero() {
-        return numero;
-    }
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
-
     public String getBairro() {
         return bairro;
     }
@@ -111,6 +105,13 @@ public class Fornecedores {
     }
     public void setCidade(String cidade) {
         this.cidade = cidade;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
     public Date getDataCadastro() {
