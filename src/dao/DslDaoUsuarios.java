@@ -12,7 +12,7 @@ public class DslDaoUsuarios {
                 + "(dsl_nome, dsl_login, dsl_senha, dsl_nivel, dsl_telefone, dsl_ativo) "
                 + "VALUES (?, ?, ?, ?, ?, ?)";
         try {
-            Connection conn = ConexaoDAO.conectar();
+            Connection conn = ConexaoDao.conectar();
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, u.getNome());
             ps.setString(2, u.getLogin());
@@ -26,5 +26,29 @@ public class DslDaoUsuarios {
         } catch (SQLException e) {
             System.out.println("Erro ao inserir usuário: " + e.getMessage());
         }
+    }
+
+    private String getNome() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    private String getLogin() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    private String getSenha() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    private int getNivel() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    private String getTelefone() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    private String getAtivo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
