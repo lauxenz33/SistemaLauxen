@@ -73,7 +73,7 @@ public class JFrmDslPrincipal extends javax.swing.JFrame {
 
         jMnuLicencas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuLicencas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/licencas.png"))); // NOI18N
-        jMnuLicencas.setText("Licenças");
+        jMnuLicencas.setText("SistemaOs");
         jMnuLicencas.addActionListener(this::jMnuLicencasActionPerformed);
         jMenu1.add(jMnuLicencas);
         jMenu1.add(jSeparator1);

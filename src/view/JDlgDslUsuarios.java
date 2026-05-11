@@ -29,6 +29,8 @@ public class JDlgDslUsuarios extends javax.swing.JDialog {
         jTxtId.setEnabled(false);
         jTxtNome.setEnabled(false);
         jTxtTelefone.setEnabled(false);
+        jFmtCpf.setEnabled(false);
+        jPwfSenha.setEnabled(false);
         jCboCargo.setEnabled(false);
         jCboGenero.setEnabled(false);
         jCboNivel.setEnabled(false);
@@ -51,13 +53,15 @@ public class JDlgDslUsuarios extends javax.swing.JDialog {
         jTxtId.setEnabled(true);
         jTxtNome.setEnabled(true);
         jTxtTelefone.setEnabled(true);
+        jFmtCpf.setEnabled(true);
+        jPwfSenha.setEnabled(true);
         jCboCargo.setEnabled(true);
         jCboGenero.setEnabled(true);
         jCboNivel.setEnabled(true);
         jChbAtivo.setEnabled(true);
         jBtnCancelar.setEnabled(true);
         jBtnConfirmar.setEnabled(true); 
-         jBtnAlterar.setEnabled(false);
+        jBtnAlterar.setEnabled(false);
         jBtnExcluir.setEnabled(false);
         jBtnIncluir.setEnabled(false);
         jBtnPesquisar.setEnabled(false);
@@ -72,6 +76,8 @@ public class JDlgDslUsuarios extends javax.swing.JDialog {
         jTxtId.setEnabled(false);
         jTxtNome.setEnabled(false);
         jTxtTelefone.setEnabled(false);
+        jFmtCpf.setEnabled(false);
+        jPwfSenha.setEnabled(false);
         jCboCargo.setEnabled(false);
         jCboGenero.setEnabled(false);
         jCboNivel.setEnabled(false);
@@ -146,6 +152,7 @@ public class JDlgDslUsuarios extends javax.swing.JDialog {
         jLblSenha.setText("Senha");
 
         jPwfSenha.setText("jPasswordField1");
+        jPwfSenha.addActionListener(this::jPwfSenhaActionPerformed);
 
         jCboNivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -379,6 +386,10 @@ public class JDlgDslUsuarios extends javax.swing.JDialog {
         // TODO add your handling code here:
         habilitar();
     }//GEN-LAST:event_jBtnCancelarActionPerformed
+
+    private void jPwfSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPwfSenhaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPwfSenhaActionPerformed
 
     /**
      * @param args the command line arguments

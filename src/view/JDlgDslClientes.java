@@ -26,6 +26,9 @@ public class JDlgDslClientes extends javax.swing.JDialog {
         jTxtDslCEP.setEnabled(false);
         jTxtDslComplemento.setEnabled(false);
         jTxtDslEndereco.setEnabled(false);
+        jTxtDslNome.setEnabled(false);
+        jTxtDslDataNasc.setEnabled(false);
+        jTxtDslCidade.setEnabled(false);
         jTxtDslApelido.setEnabled(false);
         jTxtDslNumero.setEnabled(false);
         jTxtDslEstadoCivil.setEnabled(false);
@@ -48,6 +51,9 @@ public class JDlgDslClientes extends javax.swing.JDialog {
         jTxtDslCEP.setEnabled(true);
         jTxtDslComplemento.setEnabled(true);
         jTxtDslEndereco.setEnabled(true);
+        jTxtDslNome.setEnabled(true);
+        jTxtDslDataNasc.setEnabled(true);
+        jTxtDslCidade.setEnabled(true);
         jTxtDslApelido.setEnabled(true);
         jTxtDslNumero.setEnabled(true);
         jTxtDslEstadoCivil.setEnabled(true);
@@ -64,12 +70,15 @@ public class JDlgDslClientes extends javax.swing.JDialog {
         jBtnPesquisar.setEnabled(false);
   }
     public void desabilitar(){
-               jTxtDslDataCadastro.setEnabled(false);
+        jTxtDslDataCadastro.setEnabled(false);
         jTxtDslEmail.setEnabled(false);
         jTxtDslBairro.setEnabled(false);
         jTxtDslCEP.setEnabled(false);
         jTxtDslComplemento.setEnabled(false);
         jTxtDslEndereco.setEnabled(false);
+        jTxtDslNome.setEnabled(false);
+        jTxtDslDataNasc.setEnabled(false);
+        jTxtDslCidade.setEnabled(false);
         jTxtDslApelido.setEnabled(false);
         jTxtDslNumero.setEnabled(false);
         jTxtDslEstadoCivil.setEnabled(false);
@@ -126,7 +135,7 @@ public class JDlgDslClientes extends javax.swing.JDialog {
         jLabel8 = new javax.swing.JLabel();
         jTxtDslNumero = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        jTxtDslCidade = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
         jTxtDslUF = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
@@ -250,7 +259,7 @@ public class JDlgDslClientes extends javax.swing.JDialog {
                                 .addComponent(jLabel9)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jTxtDslCidade, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -332,7 +341,7 @@ public class JDlgDslClientes extends javax.swing.JDialog {
                 .addGap(5, 5, 5)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTxtDslDataNasc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDslCidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTxtDslUF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -480,10 +489,10 @@ public class JDlgDslClientes extends javax.swing.JDialog {
     private javax.swing.JLabel jLblNome;
     private javax.swing.JLabel jLblSenha;
     private javax.swing.JLabel jLblTelefone;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTxtDslApelido;
     private javax.swing.JTextField jTxtDslBairro;
     private javax.swing.JTextField jTxtDslCEP;
+    private javax.swing.JTextField jTxtDslCidade;
     private javax.swing.JTextField jTxtDslComplemento;
     private javax.swing.JTextField jTxtDslDataCadastro;
     private javax.swing.JTextField jTxtDslDataNasc;
